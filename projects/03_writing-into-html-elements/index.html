@@ -15,16 +15,13 @@
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
   <body>
-    <div id="announcement"></div>
-
     <py-script>
-      message = 'Hello World'
-      pyscript.write('announcement', message)
-      message1 = 'Hello World again'
-      pyscript.write('announcement1', message1)
+      def aFunction(n): 
+        for i in range(n): 
+          print(f"This is line {i}")
+      aFunction(5)
     </py-script>
 
-    <div id="announcement1"></div>
     <script src="" async defer></script>
   </body>
 </html>
