@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+	<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+	<!-- <py-config type="json">
+		{
+			
+			"packages":["numpy", "matplotlib"]
+		}
+	</py-config> -->
+
+	<py-config type="json">
+		{
+			"autoclose_loader": true,
+			"runtimes": [{
+				"src": "https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js",
+				"name": "pyodide-0.21.3",
+				"lang": "python"
+			}]
+		}
+	</py-config>
+
+	<py-script>
+		print("Hello")
+		<!-- import numpy as np -->
+		<!-- x = np.random.randn(1000)
+		print(x) -->
+
+		<!-- from data import lines
+
+		pyscript.write("from-python", lines[1]) -->
+	</py-script>
+	
+</body>
+</html>

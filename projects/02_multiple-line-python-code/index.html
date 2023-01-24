@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
   <head>
     <meta charset="utf-8" />
@@ -14,16 +11,17 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
+
   <body>
-    <div id="announcement"></div>
+
 
     <py-script>
-      message = 'Hello World'
-      pyscript.write('announcement', message)
-      message1 = 'Hello World again'
-      pyscript.write('announcement1', message1)
+message = 'Hello World'
+pyscript.write('announcement', message)
+message1 = 'Hello World again'
+pyscript.write('announcement1', message1)
     </py-script>
-
+    <div id="announcement"></div>
     <div id="announcement1"></div>
     <script src="" async defer></script>
   </body>
