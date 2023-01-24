@@ -15,4 +15,4 @@ This a sandbox to play around with Pyscript to see what it can do.
 
 ### Project 3: Write value to html element
 - pyscript.write can be use to assign value in python code to html element with id.
-- <a href="https://github.com/son-n-pham/Pyscript-Sandbox/tree/main/projects/02_multiple-line-python-code">To project folder</a>
+- <https://github.com/son-n-pham/Pyscript-Sandbox/tree/main/projects/03_writing-into-html-elements">To project folder</a>
